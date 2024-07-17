@@ -1,8 +1,7 @@
 # app.py
 
 from flask import Flask, request, render_template, jsonify
-from werkzeug.utils import url_quote_plus  # Update this import
-
+from urllib.parse import quote_plus
 # Rest of your code
 
 import joblib
