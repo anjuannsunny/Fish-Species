@@ -1,7 +1,8 @@
 Flask==2.2.2
 gunicorn==20.1.0
 numpy==1.24.3  # Update to a compatible version
-joblib==1.1.0
+joblib==1.2.0  # Update to a version that is compatible with scikit-learn 1.3.0
 scikit-learn==1.3.0
+
 
 
